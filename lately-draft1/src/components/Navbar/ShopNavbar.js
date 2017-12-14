@@ -1,18 +1,5 @@
 import React, { Component } from 'react';
 import './ShopNavbar.css';
-// import video from '../../assets/video.svg';
-// import about from '../../assets/about.svg';
-// import artists from '../../assets/artists.svg';
-// import contact from '../../assets/contact.svg';
-// import playlists from '../../assets/playlists.svg';
-// import records from '../../assets/records.svg';
-// import review from '../../assets/review.svg';
-// import shop from '../../assets/shop.svg';
-// import facebook from './ContactSvg/facebook.svg';
-// import twitter from './ContactSvg/twitter.svg';
-// import instagram from './ContactSvg/instagram.svg';
-// import soundcloud from './ContactSvg/soundcloud.svg';
-// import spotify from './ContactSvg/spotify.svg';
 import shoppingcart from './ContactSvg/shoppingcart.svg';
 import gohome from './ContactSvg/gohome.svg';
 import login from './ContactSvg/login.svg';
@@ -34,7 +21,6 @@ class ShopNavbar extends Component {
     this.crissCross = this.crissCross.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.openContactSlide = this.openContactSlide.bind(this);
-    // this.search = this.search.bind( this );
 
   }
 
@@ -68,22 +54,6 @@ class ShopNavbar extends Component {
       text: event.target.value
     })
   }
-
-  // checkForUser(){
-  //   if(this.state.userInfo === {} ) {
-  //     href='http://localhost:3005/auth'
-  //   } else{
-  //     href='/checkout'
-  //   }
-  // }
-
-  // come back to this i dont think it works
-  // search(){
-  //   axios.get('http://localhost:3000/' + this.state.text)
-  //   .then( (res) => {
-  //     console.log(res)
-  //   })
-  // }
 
 
   render() {
