@@ -164,6 +164,31 @@ class HomePage extends Component {
                     opts={opts}
                     onReady={this._onReady}
                   />
+                  <YouTube
+                    videoId={this.state.videoIDs[0]}
+                    opts={opts}
+                    onReady={this._onReady}
+                  />
+                  <YouTube
+                    videoId={this.state.videoIDs[1]}
+                    opts={opts}
+                    onReady={this._onReady}
+                  />
+                  <YouTube
+                    videoId={this.state.videoIDs[2]}
+                    opts={opts}
+                    onReady={this._onReady}
+                  />
+                  <YouTube
+                    videoId={this.state.videoIDs[3]}
+                    opts={opts}
+                    onReady={this._onReady}
+                  />
+                  <YouTube
+                    videoId={this.state.videoIDs[0]}
+                    opts={opts}
+                    onReady={this._onReady}
+                  />
                 </div>
               </div>
             </div>
