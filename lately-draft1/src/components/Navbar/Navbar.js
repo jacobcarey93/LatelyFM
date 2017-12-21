@@ -172,12 +172,6 @@ class Navbar extends Component {
             <span>LATELY RECORDS</span>
           </div>
 
-          <a href={process.env.REACT_APP_LOGIN}>
-            <div className='nav_literally_just_stacking_stuff'>
-              <img src={shop} className='nav_icon_size' alt='store' />
-              <span>STORE</span>
-            </div>
-          </a>
           <Link to='/about'>
             <div className='nav_literally_just_stacking_stuff'>
               <img src={about} className='nav_icon_size' alt='about' />

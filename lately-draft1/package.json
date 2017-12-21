@@ -20,6 +20,8 @@
     "react-dom": "^16.0.0",
     "react-hamburger-menu": "^1.0.0",
     "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
     "react-scrolling-carousel": "^1.0.2",
     "react-slick": "^0.15.4",
@@ -43,5 +45,6 @@
     "eject": "react-scripts eject"
   },
   "main": "./server/index.js",
-  "proxy": "http://localhost:3005"
+  "proxy": "http://localhost:3005",
+  "homepage": "http://latelyfm.com"
 }

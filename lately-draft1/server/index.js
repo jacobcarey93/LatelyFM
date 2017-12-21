@@ -7,6 +7,7 @@ const passport = require('passport');
 const Auth0Strategy = require('passport-auth0');
 const cors = require('cors');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
+const path = require('path');
 
 const app = express();
 
@@ -307,5 +308,8 @@ app.delete('/api/admin/product/:id', ( req, res, next ) => {
   .catch( () => res.status(500).send('failed to delete'))
 })
 
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
 const PORT = 3005
 app.listen(PORT, () => console.log(`Server on port ${PORT},`))

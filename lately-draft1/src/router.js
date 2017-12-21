@@ -27,24 +27,24 @@ import AddressForm from './components/Store/AccountOverview/AccountAddress/Addre
 
 export default (
   <Switch>
-    <Route component={ HomePage } exact path="/homepage" />
-    <Route component={ About } exact path="/about" />
-    <Route component={ AdminArtistManager } exact path="/admin/artistmanager" />
-    <Route component={ AdminHome } exact path="/admin/home" />
-    <Route component={ AdminProductManger } exact path="/admin/productmanager" />
-    <Route component={ AdminReviewManger } exact path="/admin/reviewmanager" />
-    <Route component={ AdminStoreManager } exact path="/admin/storemanager" />
-    <Route component={ ArtistsHome } exact path="/artists" />
-    <Route component={ ArtistsSpecific } exact path="/artists/:artistid" />
-    <Route component={ PlaylistHome } exact path="/playlists" />
-    <Route component={ PlaylistSpecific } exact path="/playlists/:playlistid" />
-    <Route component={ ReviewsHome } exact path="/reviews" />
-    <Route component={ ReviewsSpecific } exact path="/morereviews" />
-    <Route component={ AccountOverview } exact path="/account" />
-    <Route component={ StoreHome } exact path="/store" />
-    <Route component={ VideosHome } exact path="/videos" />
-    <Route component={ VideosSpecific } exact path="/morevideos" />
-    <Route component={ Splash } exact path='/' />
+    <Route component={ HomePage } path="/homepage" />
+    <Route component={ About } path="/about" />
+    <Route component={ AdminArtistManager } path="/admin/artistmanager" />
+    <Route component={ AdminHome } path="/admin/home" />
+    <Route component={ AdminProductManger } path="/admin/productmanager" />
+    <Route component={ AdminReviewManger } path="/admin/reviewmanager" />
+    <Route component={ AdminStoreManager } path="/admin/storemanager" />
+    <Route component={ ArtistsHome } path="/artists" />
+    <Route component={ ArtistsSpecific } path="/artists/:artistid" />
+    <Route component={ PlaylistHome }  path="/playlists" />
+    <Route component={ PlaylistSpecific } path="/playlists/:playlistid" />
+    <Route component={ ReviewsHome } path="/reviews" />
+    <Route component={ ReviewsSpecific } path="/morereviews" />
+    <Route component={ AccountOverview } path="/account" />
+    <Route component={ StoreHome } path="/store" />
+    <Route component={ VideosHome } path="/videos" />
+    <Route component={ VideosSpecific } path="/morevideos" />
+    <Route component={ Splash } path='/' />
     <Route component={Details} path="/details/:productid" /> 
     <Route component={Checkout} path="/checkout" /> 
     <Route component={Stripe} path="/stripe" /> 
