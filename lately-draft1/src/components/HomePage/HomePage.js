@@ -122,7 +122,7 @@ class HomePage extends Component {
           {/* artists */}
           <div className='big_daddy'>
             <div className='pic_container1'>
-              <div><img src='http://content.acclaimmag.com/content/uploads/2016/01/toro-y-moi-503191b8d6888.jpg' className='image_size1' alt='some pic' /></div>
+              <div><img src='http://yourstru.ly/images/_gallery/Amy-Harrity_Toro-Y-Moi_Yours_Truly-B.jpg' className='image_size1' alt='some pic' /></div>
             </div>
             <div className='pic_container2'>
               <div><img src='https://storage.googleapis.com/relevant-magazine/2017/05/WashedOut1.jpg' className='image_size2' alt='some pic' /></div>

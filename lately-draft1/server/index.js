@@ -55,7 +55,7 @@ function(accessToken, refreshToken, extraParams, profile, done) {
 
 app.get('/auth', passport.authenticate('auth0'));
 app.get('/auth/callback', passport.authenticate('auth0', {
-    successRedirect: 'http://latelyfm.com/store',
+    successRedirect: 'http://localhost:3005/store',
     failureRedirect: '/auth'
 }));
 app.get('/auth/me', (req, res) => {
@@ -67,7 +67,7 @@ app.get('/auth/me', (req, res) => {
 
 app.get('/auth/logout', ( req, res ) => {
     req.logOut();
-    res.redirect(302, 'http://latelyfm.com')
+    res.redirect(302, 'http://localhost:3000')
 })
 
 passport.serializeUser( function( id, done ) {
