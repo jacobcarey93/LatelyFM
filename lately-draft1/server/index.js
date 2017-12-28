@@ -311,5 +311,5 @@ app.delete('/api/admin/product/:id', ( req, res, next ) => {
 app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
 });
-const PORT = 3005
-app.listen(PORT, () => console.log(`Server on port ${PORT},`))
+
+app.listen(process.env.PORT, () => console.log(`Server on port ${process.env.PORT},`))
